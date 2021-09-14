@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+}
+div{
+    border: 2px solid rgb(155, 153, 153);
+    padding: 20px;
+    font-size: larger;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.pic{
+    float: left;
+    width:fit-content;
+    height: 400px;
+}
+.top{
+    float: left;
+    width: 40%;
+}
+.list{
+    float: left;
+    width: 27%;
+    font-size: larger;
+    height: 410px;
+    overflow: auto;
+}
+.academic{
+    clear:left;
+    height: 200px;
+    float: left;
+    width: 40%;
+    height: 370px;
+}
+.parent{
+    float: left;
+    width: 50%;
+}
+.address{
+    float: left;
+    width: 50%;
+    height: 230px;
+}
+.contact{
+    float: left;
+    width: 40%;
+}
+.check:checked + label{
+    text-decoration: line-through;
+}
+button{
+    border-radius: 4px;
+    border:none;
+    margin-left: 70px;
+    background-color:#4daea1;
+    padding: 10px;
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
