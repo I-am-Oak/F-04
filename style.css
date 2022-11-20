@@ -8,6 +8,10 @@ header
     font-family:Georgia, 'Times New Roman', Times, serif;
     
 }
+body
+{
+    background-color: black;
+}
 
 nav
 {
